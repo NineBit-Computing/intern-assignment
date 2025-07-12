@@ -1,0 +1,18 @@
+[
+  {
+    "original": "The UI is beautiful but sometimes laggy on mobile.",
+    "analysis": {
+      "sentiment": "Positive | Neutral",
+      "category": "UI | Performance",
+      "summary": "The user appreciates the UI beauty but finds it sometimes laggy on mobile devices."
+    }
+  },
+  {
+    "original": "Love the features, but login is slow.",
+    "analysis": {
+      "sentiment": "Positive",
+      "category": "Performance",
+      "summary": "The user appreciates the features but finds the login process slow"
+    }
+  }
+]
