@@ -1,0 +1,6 @@
+streamlit
+openai-whisper
+sounddevice
+numpy
+ciq
+ninebit_ciq
