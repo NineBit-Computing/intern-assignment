@@ -1,0 +1,46 @@
+kotnana Naveen Kumar
+R kotnananaveenkumar620@gmail.com R 9346180234 ¯ Linkedin  Github
+Education
+Degree Institute Board / University CGPA/Percentage Year
+B.Tech IT GMR Institute of Technology Razam JNTUV 7.3% 2021-2025
+Senior Secondary Sri Aditya Junior BIEAP 76.9% 2019 - 21
+School Ravindra Bharathi school BSEAP 93% 2019-2020
+Work Experience
+• AIML, Topnotch Software, Hyderabad.  july 2023 - Aug 2023
+– Built an ML model to automate resume shortlisting based on job description relevance using NLP techniques– Achieved high accuracy in matching resumes, significantly reducing manual screening efforts
+Projects
+• Web Scraping Using Python Beautiful Soup
+– Developed automated web scraping solutions using Python libraries like BeautifulSoup and Scrapy to extract and analyze
+large datasets from dynamic websites.
+Power BI
+– Developed an interactive Power BI dashboard to analyze sales trends by product, country, and sales person turning raw
+data into actionable insights!
+Btech Projects
+– Monochrome to Multicolor: Reviving Images and Videos using DeOldify Aug 2024 - Nov 2024
+Under the guidance of Dr. V. Vasudha Rani.
+∗ Implemented DeOldify, an AI-powered Deep learning model, to colorize black-and-white images and videos.
+∗ Utilized GANs (Generative Adversarial Networks) and PyTorch frameworks to achieve realistic and visually appealing
+colorization results
+Technical Skills
+–Programming Languages: Python, DBMS, .
+– Frame Work: TensorFlow, PyTorch, scikit-learn, NumPy, Pandas.
+–GenAI NLP:: Large Language Models (LLMs), Rag Applications,
+–Tools: Visual Studio, Google collab, Jupyter Notebook, Aws.
+–Machine Learning: Matplotlib, TensorFlow, OpenCV ,Gen ai, Power Bi,NLP .
+Relevant Coursework
+–Introduction to Programming & Data Structures
+–Introduction to Machine Learning (ML)
+–Database Management Systems
+–Introduction to PowerBI
+Certifications
+– Introduction to Artificial Intelligence (AI),IBM Certificate
+– Programming in Python,Coursera Certificate
+Achievements
+–Secured Merit Scholarship in School GTSE (7th Class).
+–Secured a prize in GMR IT STEPCON events (Trade Master).
+Soft skills
+Problem-Solving Team Collaboration Effective Communication Continuous Learning {itemize
+Objective
+To obtain a Machine Learning Engineer position where I can apply my skills in Python, AI/ML, and AWS to build scalable,
+AI-driven solutions. Eager to contribute to innovative projects involving GenAI, LLMs, and predictive analytics in a
+collaborative and growth-focused environment.
