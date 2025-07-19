@@ -72,7 +72,7 @@ Large Text Chunks: Currently, the entire knowledge base is fed to the RAG model 
  
 Future Plan: Implement more sophisticated retrieval mechanisms to perform semantic search before feeding relevant chunks to the RAG model, allowing for scalable knowledge bases from diverse data sources (chat logs, audio transcripts converted to text, documentation) and also reply with chat, audio messages as convenience of user.
 
-Future Plan: Integrate Speech-to-Text (STT) for audio input and Text-to-Speech (TTS) for audio responses to create a full audio bot experience.
+Future Plan: Integrate Speech-to-Text (STT) for audio input and Text-to-Speech (TTS) for audio responses to create a full audio bot experience.User Interface: Develop a more polished and user-friendly interface.
 
 Note - I tried to implement with large datasets and interaction with audio as well, but text data is getting very much every time and i wasn't able to feed .pdf to RAG to remeber it thus have to feed all data everytime which is making the query-answering time larger with each iteration, also text adding after human inout to running file is not prefferable thus skipped this part for now.
-User Interface: Develop a more polished and user-friendly interface.
+
