@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer, util
 # It's highly recommended to use environment variables for API keys in production
 # export NINEBIT_CIQ_API_KEY="your_actual_api_key_here"
 # client = NineBitCIQClient(api_key=os.getenv("NINEBIT_CIQ_API_KEY"))
-client = NineBitCIQClient(api_key="6fe847d2-35ab-40e1-9e29-3e52a76f3f7d") # Replace with your actual key for testing
+client = NineBitCIQClient(api_key="your_api_key") # Replace with your actual key for testing
 
 initial_qa_data = """ {"question": "How do I change my registered email address?", "answer": "You can update your email address from your account settings. Go to 'Profile' > 'Account Info' > 'Edit Email'. Verify with OTP to confirm changes. For assistance, contact HarsNet support at support@harsnet.com or call 1800-123-4567."}
 {"question": "How can I update my phone number?", "answer": "To update your phone number, go to 'Profile' > 'Account Settings' > 'Phone Number'. Enter the new number and confirm via OTP. Need help? Email support@harsnet.com or call 1800-123-4567."}
