@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Chat Assistant</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      padding: 20px; 
+      max-width: 800px; 
+      margin: 0 auto; 
+      background-color: #f4f4f4;
+    }
+    h2 { 
+      color: #333; 
+      text-align: center;
+    }
+    #chatContainer {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    #userQuery {
+      width: calc(100% - 100px);
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box; /* Include padding in width calculation */
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #responseArea {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #e9ecef;
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+      min-height: 50px;
+      color: #333;
+    }
+    #humanInputArea { 
+      display: none; 
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+      border-radius: 4px;
+    }
+    #humanAnswer {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical; /* Allow vertical resizing */
+    }
+    p {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatContainer">
+    <h2>Smart RAG CIQ Trainer and Tester</h2>
+
+    <div>
+      <input type="text" id="userQuery" placeholder="Enter your question...">
+      <button onclick="submitQuery()">Ask</button>
+    </div>
+
+    <div id="responseArea"></div>
+
+    <div id="humanInputArea">
+      <p>The AI could not find a relevant answer. Please provide a human response to improve its knowledge:</p>
+      <textarea id="humanAnswer" rows="4" cols="50" placeholder="Type the correct answer here..."></textarea><br>
+      <button onclick="submitHumanAnswer()">Submit Human Answer</button>
+    </div>
+  </div>
+
+  <script>
+    let currentQuestion = ""; // Stores the last question asked
+
+    async function submitQuery() {
+      const query = document.getElementById('userQuery').value.trim();
+      if (!query) {
+        document.getElementById('responseArea').innerText = "Please enter a question.";
+        return;
+      }
+
+      currentQuestion = query;
+      document.getElementById('responseArea').innerText = "Bot: Thinking..."; // Show loading state
+      document.getElementById('humanInputArea').style.display = "none"; // Hide human input area initially
+
+      try {
+        const response = await fetch('/ask', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({question: query})
+        });
+        const data = await response.json();
+
+        if (data.needs_human_input) {
+          document.getElementById('responseArea').innerText = "Bot: " + data.answer; // Display "not sure" message
+          document.getElementById('humanInputArea').style.display = "block"; // Show human input area
+        } else if (data.answer) {
+          document.getElementById('responseArea').innerText = "Bot: " + data.answer;
+          document.getElementById('humanInputArea').style.display = "none";
+        } else {
+          document.getElementById('responseArea').innerText = "Bot: An unexpected error occurred. Please try again.";
+        }
+      } catch (error) {
+        console.error("Error submitting query:", error);
+        document.getElementById('responseArea').innerText = "Bot: Failed to connect to the server. Please check your connection.";
+        document.getElementById('humanInputArea').style.display = "none";
+      }
+    }
+
+    async function submitHumanAnswer() {
+      const humanAnswer = document.getElementById('humanAnswer').value.trim();
+      if (!humanAnswer) {
+        alert("Please provide an answer.");
+        return;
+      }
+
+      document.getElementById('responseArea').innerText = "Bot: Updating knowledge..."; // Show loading state
+
+      try {
+        const response = await fetch('/human-answer', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({question: currentQuestion, answer: humanAnswer})
+        });
+        const data = await response.json();
+
+        if (data.response) {
+          document.getElementById('responseArea').innerText = "Bot (Updated): " + data.response;
+          document.getElementById('humanInputArea').style.display = "none";
+          document.getElementById('humanAnswer').value = ""; // Clear textarea after submission
+        } else {
+          document.getElementById('responseArea').innerText = "Bot: Failed to update knowledge. Please try again.";
+        }
+      } catch (error) {
+        console.error("Error submitting human answer:", error);
+        document.getElementById('responseArea').innerText = "Bot: Failed to update knowledge due to a server error.";
+      }
+    }
+  </script>
+</body>
+</html>
