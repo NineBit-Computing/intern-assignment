@@ -1,0 +1,83 @@
+{"question": "How do I change my registered email address?", "answer": "You can update your email address from your account settings. Go to 'Profile' > 'Account Info' > 'Edit Email'. Verify with OTP to confirm changes."}
+{"question": "How can I update my phone number?", "answer": "To update your phone number, go to 'Profile' > 'Account Settings' > 'Phone Number'. Enter the new number and confirm via OTP."}
+{"question": "What should I do if my internet is not working?", "answer": "Please restart your modem/router. If the issue persists, check for outages in your area or contact our 24/7 support."}
+{"question": "Why is my internet speed slow?", "answer": "Slow speed can be due to high usage during peak hours, background apps, or router issues. Try restarting your router or moving closer to it."}
+{"question": "My video quality is poor despite fast internet. Why?", "answer": "Streaming apps may be set to 'Auto'. Go to the app settings and manually set the video quality to high. Also check for background apps consuming bandwidth."}
+{"question": "How do I change my service address?", "answer": "To change your address, go to 'My Account' > 'Service Details' > 'Change Address'. You may be asked to upload a valid address proof."}
+{"question": "Can I pause my subscription temporarily?", "answer": "Yes, you can pause your subscription for up to 30 days. Go to 'My Plans' and select 'Pause'. Your billing will adjust accordingly."}
+{"question": "Is there a customer care number I can call?", "answer": "Yes, you can reach our support at 1800-123-4567. We're available 24/7 to help you."}
+{"question": "Do you provide OTT bundles with the internet?", "answer": "Yes, our premium plans come with access to OTT apps like Netflix, Prime Video, and Disney+ Hotstar. Check 'My Offers' in the app for details."}
+{"question": "How do I upgrade my plan?", "answer": "You can upgrade anytime through the app. Go to 'Plans' > 'Available Upgrades'. Changes reflect instantly upon confirmation."}
+{"question": "Can I downgrade my internet plan?", "answer": "Yes, go to your plan settings and select 'Change Plan'. You can choose a lower-tier option and it will take effect in the next billing cycle."}
+{"question": "How do I pay my bill?", "answer": "You can pay via our app, website, or UPI apps. Go to the 'Billing' section and select your preferred payment method."}
+{"question": "Do you accept UPI payments?", "answer": "Yes, we accept UPI, credit/debit cards, and net banking. Just choose UPI while making a payment and follow the prompts."}
+{"question": "I paid my bill but it still shows pending.", "answer": "Sometimes payments take a few minutes to reflect. If it doesn’t update in 15 minutes, contact support with the payment reference."}
+{"question": "Can I schedule my installation?", "answer": "Yes, you can choose your preferred installation time while purchasing the plan. You can also reschedule via the app later."}
+{"question": "I missed my installation appointment. What now?", "answer": "Don't worry! You can reschedule it from the 'Installation' tab in the app or call our support team."}
+{"question": "My connection drops frequently. What should I do?", "answer": "Try restarting your router and checking for firmware updates. If it persists, contact support for a line check."}
+{"question": "Can I use my own router?", "answer": "Yes, but make sure it's compatible with your plan. Our team can help configure it during installation."}
+{"question": "How do I report a complaint?", "answer": "You can raise a complaint via our app's 'Help' section or call our helpline. All tickets are tracked for quick resolution."}
+{"question": "Can I track data usage?", "answer": "Yes, real-time data usage is available in the app under 'Usage Summary'. It resets monthly."}
+{"question": "How do I reset my password?", "answer": "Click 'Forgot Password' on the login screen. We'll send you a reset link to your registered email or phone."}
+{"question": "Can I get a paper bill?", "answer": "By default, we provide digital bills. However, you can request a printed bill via your profile settings or customer care."}
+{"question": "Do you offer corporate internet plans?", "answer": "Yes, we have business-grade plans with SLAs and static IP options. Please visit our 'Business' section or contact sales."}
+{"question": "How do I activate OTT apps?", "answer": "Log in to your account > 'OTT Benefits' > Click on each OTT to activate. You’ll be redirected to their app for setup."}
+{"question": "How to connect a new device to Wi-Fi?", "answer": "Just scan the QR code on your router or manually enter the SSID and password from your app dashboard."}
+{"question": "How can I check service availability in my area?", "answer": "Use the 'Check Availability' tool on our homepage or app. Enter your PIN code and see all available plans."}
+{"question": "Is there a trial period?", "answer": "Yes, we offer a 7-day money-back guarantee. If you're not satisfied, cancel within 7 days for a full refund."}
+{"question": "Can I transfer my connection to a new address?", "answer": "Yes, go to 'Relocation Request' in the app. We'll help you move the service to your new address seamlessly."}
+{"question": "My OTT apps are not working.", "answer": "Try logging out and logging back in. Ensure your plan includes those OTT apps and your account is linked correctly."}
+{"question": "Can I remove OTT add-ons?", "answer": "Yes, go to your subscription settings and deselect OTT apps. Your next bill will reflect the updated charges."}
+{"question": "How to enable parental control?", "answer": "Go to your router settings in the app > 'Parental Control'. You can set time limits and block certain websites."}
+{"question": "What is the fair usage policy?", "answer": "After a certain data threshold, speed may reduce temporarily to ensure equal access. Check plan details for your FUP limit."}
+{"question": "Why was my plan renewed automatically?", "answer": "If you have auto-renew enabled, plans renew automatically to avoid service interruption. You can turn it off in 'Billing' settings."}
+{"question": "How to contact technical support?", "answer": "Use the app chat, email us at support@isp.com, or call our 24/7 tech helpline at 1800-123-4567."}
+{"question": "Do I need to return the router if I cancel?", "answer": "Yes, routers provided under rental or bundled plans must be returned within 7 days of cancellation to avoid charges."}
+{"question": "How long does it take for activation after payment?", "answer": "Typically within 2 hours. For new installations, it can take up to 24 hours depending on availability."}
+{"question": "Why did I get charged extra?", "answer": "It could be due to OTT add-ons, late fees, or overage beyond FUP. Check your itemized bill in the app for full details."}
+{"question": "My router’s signal is weak in some rooms.", "answer": "Consider repositioning the router or using Wi-Fi extenders. We also offer mesh router add-ons."}
+{"question": "How do I redeem referral benefits?", "answer": "Go to 'Refer & Earn' in the app. Once your friend joins and completes the payment, both of you get rewards automatically."}
+{"question": "How do I upgrade to a fiber plan?", "answer": "If fiber is available in your area, you’ll see upgrade options in the app. Otherwise, you can request availability alert."}
+{"question": "How can I activate my OTT subscription included in the broadband plan?", "answer": "After activating your broadband, open the app and go to 'My Benefits' > 'OTT Subscriptions'. Click 'Activate' beside each OTT service."}
+{"question": "How do I check the status of my broadband installation?", "answer": "Go to the app dashboard and tap 'Installation Tracker'. It shows the technician’s details, ETA, and current status."}
+{"question": "I missed my installation appointment. What should I do?", "answer": "You can reschedule from the app under 'Installation Tracker'. Choose a new available slot that suits you."}
+{"question": "How do I reset my router to factory settings?", "answer": "Press and hold the reset pinhole button on your router for 10 seconds using a paperclip. This will restore factory settings."}
+{"question": "Why am I getting frequent disconnections?", "answer": "It may be due to outdated router firmware or high interference. Try a firmware update or change router position. Contact support if it persists."}
+{"question": "Can I use my own router instead of the one you provide?", "answer": "Yes, you can use your own compatible router. Just configure PPPoE settings with the credentials provided during activation."}
+{"question": "My internet works on phone but not on laptop. Why?", "answer": "Check if Wi-Fi is enabled on your laptop. If yes, try 'Forget Network' and reconnect. Also ensure DNS settings are on automatic."}
+{"question": "Do you provide static IP on request?", "answer": "Yes, static IPs are available for business users. Contact support or your account manager to request one."}
+{"question": "How do I pay my bill online?", "answer": "You can pay via the mobile app under 'Billing' > 'Pay Now'. UPI, credit card, net banking, and wallets are accepted."}
+{"question": "What happens if I miss a bill payment?", "answer": "You'll get a grace period of 3 days. After that, services may be suspended temporarily. A reconnection charge may apply."}
+{"question": "Can I get a bill for my past payments?", "answer": "Yes, go to 'Billing History' in the app. You can download and print invoices for all completed transactions."}
+{"question": "My OTT app says login expired. What should I do?", "answer": "Go to 'My Benefits' in the app and click 'Reactivate OTT'. You’ll be signed in again without extra cost."}
+{"question": "How do I report a connection outage?", "answer": "Tap 'Report an Issue' in the app. Select 'No Internet', and we’ll check your area and raise a ticket immediately."}
+{"question": "Do you offer customer support on WhatsApp?", "answer": "Yes! Message us on WhatsApp at +91-XXXXXXXXXX for instant support, status updates, and troubleshooting tips."}
+{"question": "How can I switch to an annual plan?", "answer": "Go to 'Plans & Billing' > 'Upgrade Plan' and choose an annual option. You may get extra months or OTT benefits."}
+{"question": "Why is my router light red?", "answer": "A red light usually means no internet signal. Restart your router. If it stays red, check for service outage or contact support."}
+{"question": "Can I move my connection to a new city?", "answer": "Yes, log in to the app and choose 'Relocation Request'. We'll check coverage in your new area and schedule reinstallation."}
+{"question": "I forgot my app login password. How can I reset it?", "answer": "Click 'Forgot Password' on the login screen. Enter your registered number or email to get a reset link."}
+{"question": "Is there an app for managing my Wi-Fi settings?", "answer": "Yes, download our app and log in. Under 'Wi-Fi Settings', you can view connected devices, change password, or schedule downtime."}
+{"question": "Can I upgrade my OTT bundle separately?", "answer": "Currently, OTT upgrades are tied to broadband plans. You can switch to a higher plan with a better OTT package anytime."}
+{"question": "How do I enable parental controls on my router?", "answer": "Open the router IP in browser (like 192.168.0.1), log in, and enable parental controls under Security or Access Restrictions."}
+{"question": "My internet slows down at night. What’s the reason?", "answer": "This may be due to peak usage. You can consider upgrading your plan or using dual-band routers to optimize performance."}
+{"question": "How do I cancel my subscription?", "answer": "Go to 'Account Settings' > 'Cancel Subscription'. You’ll get a confirmation and your final bill will be generated."}
+{"question": "Is there a penalty for early disconnection?", "answer": "No penalty for monthly plans. Annual plans have a pro-rata refund policy minus any promotional benefits used."}
+{"question": "Can I share my OTT login with family?", "answer": "Yes, most OTTs allow multiple screens. But simultaneous streams may be limited based on the service’s policy."}
+{"question": "Do I need to return the router if I cancel?", "answer": "If it's on rental, yes. You’ll get pickup instructions in the app. If you purchased it, it's yours to keep."}
+{"question": "How do I change my registered name?", "answer": "Submit a request via 'Account Settings' > 'Update Profile' and upload a valid ID proof. Changes take 24-48 hours."}
+{"question": "How do I check daily data usage?", "answer": "Go to 'Data Usage' in the app. You’ll see daily, weekly, and monthly usage graphs along with device-wise breakdown."}
+{"question": "Can I get service alerts on SMS?", "answer": "Yes, enable notifications under 'Communication Preferences'. We’ll send you alerts via SMS and email."}
+{"question": "Can I pay my bill in advance?", "answer": "Yes, you can choose to pay multiple months in advance from the billing screen. Discounts apply on select long-term plans."}
+{"question": "What’s the minimum internet plan you offer?", "answer": "Our starter plan begins at 30 Mbps with 500GB monthly data. You can view all plans on the app or website."}
+{"question": "Why does Netflix buffer while other apps work fine?", "answer": "It may be CDN-specific congestion. Try changing DNS to 8.8.8.8 or contact support to check routing issues."}
+{"question": "Do you offer fiber internet in my area?", "answer": "Enter your PIN code on our website or app to check availability. If not covered, we’ll notify you when it becomes available."}
+{"question": "How long does it take for a new connection?", "answer": "Installation is done within 24-48 hours of payment, depending on feasibility and technician availability."}
+{"question": "How can I contact support via email?", "answer": "Write to us at support@yourcompany.com with your registered details and issue. We usually respond within 2-4 hours."}
+{"question": "Can I change my plan mid-month?", "answer": "Yes, you can upgrade or downgrade your plan anytime. The changes will reflect in the next billing cycle."}
+{"question": "How do I check if my plan includes OTT apps?", "answer": "Go to 'My Plans' in the app. It lists all included OTT services and their activation status."}
+{"question": "What should I do if my router is overheating?", "answer": "Ensure it’s placed in a well-ventilated area. If it continues to overheat, contact support for a replacement."}
+{"question": "Can I get a discount for referring friends?", "answer": "Yes, our referral program gives both you and your friend discounts on the next bill when they sign up using your code."}
+{"question": "How do I set up a guest Wi-Fi network?", "answer": "Log in to your router settings via the app or web interface. Look for 'Guest Network' and enable it with a separate password."}
+{"question": "What is the maximum speed I can get?", "answer": "Our top-tier plan offers speeds up to 1 Gbps. Check availability in your area through the app."}
+{"question": "How do I report a billing error?", "answer": "Raise a ticket via 'Billing Issues' in the app or call customer support with details of the discrepancy."}
+{"question": "Can I use my broadband connection while traveling?", "answer": "Broadband is location-specific. However, you can use our mobile app for data usage tracking and account management on the go."}
