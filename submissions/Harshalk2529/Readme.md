@@ -1,4 +1,4 @@
-HarsNet AI Customer Support Bot 🤖
+RAG Customer Support Bot Trainer and Tester 🤖
 This repository hosts a prototype of an AI-powered customer support bot for HarsNet, designed to handle common customer inquiries efficiently. Utilizing Retrieval Augmented Generation (RAG) and semantic similarity checks, the bot aims to provide accurate answers, learn from human interactions, and continuously improve its knowledge base.
 
 🌟 Features
