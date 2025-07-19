@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "text": "Hello, I see $15 incorrect charge on my bill, please help.",
+        "category_priority": "Category: Billing, Priority: High",
+        "suggested_response": "We apologize for the inconvenience. We'll review the $15 charge and get back to you shortly.",
+        "extracted_details": {
+            "amount": "$15",
+            "issue": "billing error"
+        }
+    },
+    {
+        "id": "2",
+        "text": "App crashes with error 502 when I hit Submit.",
+        "category_priority": "Category: Technical, Priority: High",
+        "suggested_response": "Thank you for reporting this. Our technical team will investigate the error 502 and resolve it as soon as possible.",
+        "extracted_details": {
+            "error_code": "502",
+            "action": "hit Submit"
+        }
+    },
+    {
+        "id": "3",
+        "text": "I forgot my password and need a reset link.",
+        "category_priority": "Category: Account, Priority: Medium",
+        "suggested_response": "We've sent a password reset link to your registered email address.",
+        "extracted_details": {
+            "issue": "password reset"
+        }
+    },
+    {
+        "id": "4",
+        "text": "Thanks for the quick support yesterday!",
+        "category_priority": "Category: General, Priority: Low",
+        "suggested_response": "You're welcome! We're always here to help.",
+        "extracted_details": {}
+    }
+]
