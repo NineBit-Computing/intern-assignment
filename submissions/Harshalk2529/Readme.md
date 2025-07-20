@@ -74,5 +74,10 @@ Future Plan: Implement more sophisticated retrieval mechanisms to perform semant
 
 Future Plan: Integrate Speech-to-Text (STT) for audio input and Text-to-Speech (TTS) for audio responses to create a full audio bot experience.User Interface: Develop a more polished and user-friendly interface.
 
-Note - I tried to implement with large datasets and interaction with audio as well, but text data is getting very much every time and i wasn't able to feed .pdf to RAG to remeber it thus have to feed all data everytime which is making the query-answering time larger with each iteration, also text adding after human inout to running file is not prefferable thus skipped this part for now.
+Note - Here is the corrected version of your text with proper spelling and grammar:
+
+---
+
+Note - I tried implementing it with large datasets and audio interaction as well, but the text data keeps increasing significantly each time. I wasn't able to feed a `.pdf` file to the RAG system to retain the data, so I had to input all the data every time, which made the query-answering time longer with each iteration. Additionally, appending text after human input to a running file is not preferable, so I skipped that part for now.
+
 
